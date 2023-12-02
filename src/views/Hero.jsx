@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 // local imports
-import heroImage from "../assets/hero-image.svg";
+import heroImage from "../assets/heroo-imgg.jpg";
 import logo from "../assets/logo.svg";
 import cartIcon from "../assets/cart-icon.svg";
 import searchIcon from "../assets/search-icon.svg";
@@ -24,7 +24,7 @@ const Hero = () => {
       className="h-screen relative flex flex-col items-center"
       style={{
         background: `url(${heroImage})`,
-        backgroundPosition: "bottom",
+        backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}

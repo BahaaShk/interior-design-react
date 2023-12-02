@@ -1,9 +1,9 @@
 // import React from 'react'
 import { referenceSubtitle, referenceTitle } from "../data";
 
-import imagesOne from '../assets/image-one.svg';
-import imagesTwo from '../assets/image-two.svg';
-import imagesThree from '../assets/image-three.svg';
+import imagesOne from '../assets/image-threee.jpg';
+import imagesTwo from '../assets/image-twwoo.jpg';
+import imagesThree from '../assets/imgg-three.jpg';
 
 import FadeIn from "../components/FadeIn";
 
@@ -23,14 +23,15 @@ const Reference = () => {
 
         <div className=" flex flex-col md:flex-row gap-8 md:justify-center">
             <FadeIn delay={0.2} direction='right'>
-                <div className=" flex flex-col gap-8">
-                    <img src={imagesOne} alt="" />
-                    <img src={imagesTwo} alt="" />
+                <div className=" flex flex-col gap-4 w-full">
+                    <img src={imagesOne} className="rounded-3xl" alt="" />
+                    <img src={imagesTwo} className="rounded-3xl h-[510px] object-cover object-center" alt="" />
+                    {/* <img src={imagesThree} className=" w-full lg:w-[50%] rounded-3xl" alt="" /> */}
                 </div>
             </FadeIn>
             <FadeIn delay={0.2} direction= 'left'>
-                <div>
-                    <img src={imagesThree} alt="" />
+                <div className="">
+                    <img src={imagesThree} className="rounded-3xl" alt="" />
                 </div>
             </FadeIn>
         </div>
